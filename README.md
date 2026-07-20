@@ -1,6 +1,6 @@
 # IASFilter
 
-This is the code for IASFilter, an adaptive label-noise filtering framework for molecular regression tasks. Reliable machine learning ultimately depends on reliable labels, yet label reliability remains an underexplored bottleneck in scientific regression, where labels are often continuous, costly to obtain, and uncertain. IASFilter identifies unreliable molecular labels without requiring a clean reference set, providing a data-centric strategy for improving supervised learning from noisy molecular data.
+This is the code for IASFilter, an adaptive label-noise filtering framework for molecular regression tasks.
 
 Next, we demonstrate an application example of IASFilter: A molecular dataset is filtered using IASFilter, and the filtered data are subsequently used to train the four downstream models considered in this study. The model performances before and after filtering are compared to evaluate the effectiveness of IASFilter.
 
