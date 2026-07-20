@@ -26,13 +26,6 @@ IASFilter.ipynb
 
 This is a user-friendly format. Just open the notebook and run all cells directly.
 
-The default filtering ratio search space is:
-
-```python
-Real(0.0, 0.5, name='train_filter_ratio')
-```
-The upper limit can be set within the range of (0,1) depending on specific conditions; here, we set it to 0.5 as a representative value.
-
 ## Output
 
 The filtering results are saved in:
