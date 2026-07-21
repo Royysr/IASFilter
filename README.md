@@ -1,6 +1,28 @@
 # IASFilter
 
 This is the code for IASFilter, an adaptive label-noise filtering framework for molecular regression tasks.
+IASFilter requires the following Python libraries:
+
+```text
+numpy
+pandas
+scikit-learn
+scikit-optimize
+rdkit
+```
+
+Recommended installation:
+
+```bash
+conda install -c conda-forge numpy pandas scikit-learn scikit-optimize rdkit
+```
+
+Or install the common Python packages with `pip` and RDKit with `conda`:
+
+```bash
+conda install -c conda-forge rdkit
+pip install numpy pandas scikit-learn scikit-optimize
+```
 
 Next, we demonstrate an application example of IASFilter: A molecular dataset is filtered using IASFilter, and the filtered data are subsequently used to train the four downstream models considered in this study. The model performances before and after filtering are compared to evaluate the effectiveness of IASFilter.
 
