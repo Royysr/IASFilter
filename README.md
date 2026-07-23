@@ -59,8 +59,8 @@ datasets/example_results/
 The generated files include clean datasets and noisy datasets:
 
 ```text
-clean_{count}_{best_count}.csv
-noise_{count}_{best_count}.csv
+clean_{count}.csv
+noise_{count}.csv
 ```
 
 `clean_*.csv` contains molecules retained as clean samples.
